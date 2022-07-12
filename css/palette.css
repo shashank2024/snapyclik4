@@ -1,0 +1,63 @@
+:root{
+    --color-bg-1: #FFF8DC;
+   
+}
+
+header {   
+    font-size: 30px;
+    position: fixed;
+    right: 10px;
+    top:350px ;
+}
+
+header i{
+    margin-right: 20px;
+}
+
+header span:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+
+header:hover ol{
+    display: block;
+}
+
+
+ol{
+    background: var( --color-bg-1);
+    width: 90px;
+    position: fixed;
+    right: 10px;
+    top: 280px;
+    border-radius: 0 0 10px 10px;
+    display: none;
+}
+
+.colors{
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    margin: 17px auto;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+#blue{
+    background: #3498db;
+}
+#red{
+    background: #e74c3c;
+}
+#purple{
+    background: #9b59b6;
+}
+#yellow{
+    background: #f1c40f;
+}
+#orange{
+    background: #e67e22;
+}
+#green{
+    background: #2ecc71;
+}
